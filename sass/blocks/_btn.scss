@@ -1,0 +1,38 @@
+.btn {
+  display: inline-block;
+  height: 64px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  border-radius: 50px;
+  background-color: $accent-color;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 60px;
+  box-shadow: 0px 5px 15px 0px rgba(123, 178, 215, 0.5);
+  border: 2px solid $accent-color;
+
+  transition: border 0.2s ease-in;
+
+  &:hover {
+    border: 2px solid #000;
+  }
+
+  // Tablet
+  @media (max-width: 1199px) {
+    height: 58px;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+  // Mobile
+  @media (max-width: 899px) {
+    display: none;
+  }
+}
+
+.btn--other {
+  background-color: $gray-color;
+  border: 2px solid $gray-color;
+}

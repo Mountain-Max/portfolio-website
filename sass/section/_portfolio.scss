@@ -1,0 +1,35 @@
+.portfolio {
+  padding-top: 80px;
+  padding-bottom: 90px;
+
+  background: linear-gradient(0deg, #f5fbff 0%, #f5fbff 100%), #f4f8f9;
+
+  // Tablet
+  @media (max-width: 1199px) {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+}
+
+.portfolio__header {
+  margin-bottom: 65px;
+
+  // Tablet
+  @media (max-width: 1199px) {
+    margin-bottom: 40px;
+  }
+
+  // Mobile
+  @media (max-width: 899px) {
+    margin-bottom: 30px;
+  }
+}
+
+.portfolio__row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+
+  column-gap: 30px;
+  row-gap: 50px;
+}

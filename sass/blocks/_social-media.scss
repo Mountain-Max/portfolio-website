@@ -1,0 +1,26 @@
+.social-media {
+display: flex;
+align-items: center;
+
+  // Mobile XS
+  @media (max-width: 599px) {
+  column-gap: 15px;
+  justify-content: center;
+  }
+}
+
+.social-media > * + * {
+  margin-left: 30px;
+
+  // Tablet
+  @media (max-width: 1199px) {
+    margin-left: 20px;
+  }
+
+  // Mobile
+  @media (max-width: 899px) {
+    margin-left: 15px;
+  }
+
+}
+

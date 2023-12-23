@@ -1,0 +1,29 @@
+// Color 
+$accent-color: #FBDC4D;
+$accent-color-hover: #ddce44;
+$text-color: #000;
+$gray-color: #E1EEF4;
+
+// Link
+$link-color: #1A71D2;
+
+// Button
+$contact-btn-color: #EFF7FC;
+
+//* Иконка бургер
+// Ширина и высота линии в иконке
+$lineWidth: 40px;
+$lineHeight: 5px;
+
+// Расстояние между линиями
+$innerMargin: 4px;
+
+// Радиус скругления
+$radiusIcon: 2px;
+
+// Цвет иконки
+$colorIcon: #000;
+
+// Размеры контейнера
+$width: $lineWidth;
+$height: $lineHeight * 3 + $innerMargin * 2;

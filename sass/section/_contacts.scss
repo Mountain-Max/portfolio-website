@@ -1,0 +1,162 @@
+.contacts {
+  padding-top: 70px;
+  padding-bottom: 90px;
+
+  background: linear-gradient(0deg, #f5fbff 0%, #f5fbff 100%), #f4f8f9;
+
+  // Tablet
+  @media (max-width: 1199px) {
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+
+  // Mobile
+  @media (max-width: 767px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.contacts-title {
+  text-align: center;
+  margin-bottom: 60px;
+
+  // Tablet
+  @media (max-width: 1199px) {
+    margin-bottom: 40px;
+  }
+
+  // Mobile
+  @media (max-width: 899px) {
+    margin-bottom: 20px;
+  }
+}
+
+.contacts-wrapper {
+  display: flex;
+  column-gap: 70px;
+
+  // Mobile
+  @media (max-width: 899px) {
+    column-gap: 115px;
+  }
+
+  // Mobile XS
+  @media (max-width: 767px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-list__item {
+  width: 500px;
+
+  // Tablet
+  @media (max-width: 1199px) {
+    width: 376px;
+  }
+
+  // Mobile
+  @media (max-width: 899px) {
+    width: 270px;
+  }
+}
+
+.contacts-list__item-row {
+  margin-bottom: 32px;
+}
+
+.contacts-list__item-contact-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-list__item-contact li {
+  display: flex;
+
+  // Mobile
+  @media (max-width: 899px) {
+    flex-direction: column;
+  }
+
+  & span {
+    width: 120px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.6;
+
+    // Tablet
+    @media (max-width: 1199px) {
+      width: 100px;
+      font-size: 18px;
+    }
+
+    // Mobile
+    @media (max-width: 899px) {
+      width: 0;
+      font-size: 16px;
+    }
+  }
+}
+
+.contacts-list__item-contact ul > li + li {
+  margin-top: 22px;
+
+  // Tablet
+  @media (max-width: 1199px) {
+    margin-top: 16px;
+  }
+
+  // Mobile
+  @media (max-width: 899px) {
+    margin-top: 10px;
+  }
+}
+
+.contacts-desc {
+  position: relative;
+  width: 538px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+
+  // Tablet
+  @media (max-width: 1199px) {
+    width: 420px;
+    font-size: 16px;
+  }
+
+  // Mobile
+  @media (max-width: 899px) {
+    width: 290px;
+    font-size: 14px;
+  }
+
+  // Mobile XS
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+
+  &::before {
+    content: url(./../../img/svg/contacts-icon.svg);
+    position: absolute;
+
+    right: -100px;
+    bottom: 35px;
+
+    // Tablet
+    @media (max-width: 1299px) {
+      right: 0;
+      bottom: 0;
+    }
+
+    // Mobile
+    @media (max-width: 899px) {
+      display: none;
+    }
+  }
+}

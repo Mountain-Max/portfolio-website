@@ -1,0 +1,63 @@
+.svg-telegram {
+  width: 48px;
+  height: 48px;
+  fill: #039be5;
+
+  &:hover {
+    fill: #0f74a7;
+  }
+
+  // Mobile
+  @media (max-width: 899px) {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+.svg-whatsapp {
+  width: 48px;
+  height: 48px;
+  fill: #55cd6c;
+
+  &:hover {
+    fill: #49b05d;
+  }
+
+  // Mobile
+  @media (max-width: 899px) {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+.svg-instagram {
+  width: 48px;
+  height: 48px;
+  fill: url(#paint0_linear_122_1090);
+
+  // Mobile
+  @media (max-width: 899px) {
+    width: 38px;
+    height: 38px;
+  }
+
+  &:hover {
+  filter: saturate(200%);
+  }
+}
+
+.svg-github {
+  width: 48px;
+  height: 48px;
+  fill: #212121;
+
+  &:hover {
+    fill: #FBDC4D;
+  }
+
+  // Mobile
+  @media (max-width: 899px) {
+    width: 38px;
+    height: 38px;
+  }
+}

@@ -1,0 +1,14 @@
+// Header bg
+.header-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -157px;
+  z-index: -1;
+
+  // Mobile XS
+  @media (max-width: 767px) {
+    margin-top: -30px;
+  }
+}
